@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="AbstractFactory" />
         <module name="Repository" />
+        <module name="Builder" />
       </profile>
     </annotationProcessing>
   </component>
