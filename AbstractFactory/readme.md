@@ -1,7 +1,7 @@
 # Abstract Factory Pattern
 
-Aloqador yoki bog'liq ob'ektlar oilalarini ularning aniq sinflarini ko'rsatmasdan
-yaratish uchun interfeysni taqdim etidigan pattern.
+Aloqador yoki bog'liq objectlar oilalarini ularning aniq sinflarini ko'rsatmasdan
+yaratish uchun interfeysni taqdim etadigan pattern.
 
 ## Explanation
 
