@@ -6,8 +6,8 @@
 
 # Intro
 
-Design Patternlar - bu dasturchi dastur yoki tizimni loyihalashda umumiy muammolarni hal qilish uchun foydalanishi mumkin bo'lgan eng yaxshi, rasmiylashtirilgan amaliyotdir.
+Design patterns are the best, formalized practices a programmer can use to solve common problems when designing an application or system.
 
-Design Patternlari sinovdan o'tgan, tasdiqlangan rivojlanish paradigmalarini taqdim etish orqali rivojlanish jarayonini tezlashtirishi mumkin.
+Design patterns can speed up the development process by providing tested, proven development paradigms.
 
-Design Patternlaridan qayta foydalanish katta muammolarni keltirib chiqaradigan nozik muammolarni oldini olishga yordam beradi, shuningdek, naqshlar bilan tanish bo'lgan kodlovchilar va arxitektorlar uchun kodni o'qish qobiliyatini yaxshilaydi.
+Reusing design patterns help prevent subtle issues that cause major problems, and it also improves code readability for coders and architects who are familiar with the patterns.
