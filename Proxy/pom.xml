@@ -2,19 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>DesignPattern</artifactId>
+        <groupId>org.khasanof</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.khasanof</groupId>
-    <artifactId>DesignPattern</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>AbstractFactory</module>
-        <module>Repository</module>
-        <module>Builder</module>
-        <module>Prototype</module>
-        <module>Proxy</module>
-    </modules>
+    <artifactId>Proxy</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

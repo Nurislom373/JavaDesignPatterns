@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Repository" />
+        <module name="Proxy" />
         <module name="Prototype" />
         <module name="AbstractFactory" />
         <module name="Builder" />
