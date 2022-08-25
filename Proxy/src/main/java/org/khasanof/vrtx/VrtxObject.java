@@ -1,4 +1,4 @@
-package org.khasanof.creationalObject;
+package org.khasanof.vrtx;
 
 public class VrtxObject implements Vrtx {
 

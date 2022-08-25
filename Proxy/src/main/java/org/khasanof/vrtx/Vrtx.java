@@ -1,4 +1,4 @@
-package org.khasanof.creationalObject;
+package org.khasanof.vrtx;
 
 public interface Vrtx {
     void create();
