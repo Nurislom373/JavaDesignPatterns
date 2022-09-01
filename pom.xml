@@ -16,6 +16,7 @@
         <module>Proxy</module>
         <module>Strategy</module>
         <module>Factory</module>
+        <module>Singleton</module>
     </modules>
 
     <properties>
