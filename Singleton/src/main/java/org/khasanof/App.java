@@ -50,8 +50,8 @@ public class App {
         System.out.println("instanceDoubleLocking2 = " + instanceDoubleLocking2);
 
         // initialized singleton inner class
-        SingletonInitializing instanceInner1 = SingletonInitializing.getInstance();
-        SingletonInitializing instanceInner2 = SingletonInitializing.getInstance();
+        SingletonInnerClassLoaded instanceInner1 = SingletonInnerClassLoaded.getInstance();
+        SingletonInnerClassLoaded instanceInner2 = SingletonInnerClassLoaded.getInstance();
 
         System.out.println("instanceInner1 = " + instanceInner1);
         System.out.println("instanceInner2 = " + instanceInner2);

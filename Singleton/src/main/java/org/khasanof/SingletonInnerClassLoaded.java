@@ -23,17 +23,17 @@
 
 package org.khasanof;
 
-public final class SingletonInitializing {
+public final class SingletonInnerClassLoaded {
 
-    private SingletonInitializing() {
+    private SingletonInnerClassLoaded() {
     }
 
-    public static SingletonInitializing getInstance() {
+    public static SingletonInnerClassLoaded getInstance() {
         return Singleton.INITIALIZING;
     }
 
     private static class Singleton {
-        private static final SingletonInitializing INITIALIZING =
-                new SingletonInitializing();
+        private static final SingletonInnerClassLoaded INITIALIZING =
+                new SingletonInnerClassLoaded();
     }
 }
