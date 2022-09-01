@@ -3,6 +3,10 @@
 Aloqador yoki bog'liq objectlar oilalarini ularning aniq sinflarini ko'rsatmasdan
 yaratish uchun interfeysni taqdim etadigan pattern.
 
+### Class Diagram
+
+![windows](src/main/resources/img/img.png)
+
 ## Explanation
 
 Tushuntirish
@@ -106,4 +110,4 @@ public class OrcKingdomFactory implements KingdomFactory {
 }
 ```
 
-![windows](src/main/resources/img/updated_abstract_factory.jpg)
+

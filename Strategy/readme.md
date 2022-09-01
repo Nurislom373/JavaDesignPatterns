@@ -10,7 +10,9 @@ We are going to create a Strategy interface defining an action and concrete stra
 
 StrategyPatternDemo, our demo class, will use Context and strategy objects to demonstrate change in Context behaviour based on strategy it deploys or uses.
 
-![img](src/main/resources/img/strategy_pattern_uml_diagram.jpg)
+### Class Diagram
+
+![img](src/main/resources/img/img.png)
 
 ### Step 1
 

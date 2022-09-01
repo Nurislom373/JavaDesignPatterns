@@ -10,7 +10,7 @@ and costly operation, so we create objects with the existing object itself. One 
 from existing objects is the clone() method. Clone is the simplest approach to implement a prototype pattern. However, 
 it is your call to decide how to copy existing object based on your business model.
 
-![img](src/main/resources/img/Prototype-Pattern.webp)
+![img](src/main/resources/img/img.png)
 
 ## Advantages of Prototype Design Pattern
 
