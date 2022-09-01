@@ -15,6 +15,7 @@
         <module>Prototype</module>
         <module>Proxy</module>
         <module>Strategy</module>
+        <module>Factory</module>
     </modules>
 
     <properties>
