@@ -12,6 +12,7 @@
         <module name="Prototype" />
         <module name="Singleton" />
         <module name="Builder" />
+        <module name="ThreadPool" />
         <module name="Strategy" />
         <module name="Factory" />
         <module name="AbstractFactory" />
