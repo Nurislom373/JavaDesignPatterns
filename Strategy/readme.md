@@ -116,6 +116,4 @@ output
 # Translate
 
 Strategy dizayn pattern behavirol design patterniga kiradi.
-Strategiya namunasi bizda ma'lum bir vazifa uchun bir nechta 
-algoritmga ega bo'lganda foydalaniladi va mijoz ish vaqtida 
-foydalanish uchun haqiqiy dasturni hal qiladi.
+Strategy Design Pattern - ushbu algorithmdan foydalanadigan kodni o’zagartirmasdan turib yangi algorithm va yangi strategy joriy qilish imkoni beradi. Masalan, ob'ekt ro'yxatini saralaydigan Collections.sort() usuli ob'ektlarni solishtirish uchun Strategiya naqshidan foydalanadi. Har bir ob'ekt turli xil taqqoslash strategiyasidan foydalanganligi sababli, tartiblash usulini o'zgartirmasdan, turli ob'ektlarni boshqacha solishtirishingiz mumkin.
