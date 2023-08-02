@@ -19,6 +19,7 @@
         <module>Factory</module>
         <module>Singleton</module>
         <module>ThreadPool</module>
+        <module>Bridge</module>
     </modules>
 
     <properties>

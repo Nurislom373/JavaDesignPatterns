@@ -15,6 +15,7 @@
         <module name="ThreadPool" />
         <module name="Strategy" />
         <module name="Factory" />
+        <module name="Bride" />
         <module name="AbstractFactory" />
       </profile>
     </annotationProcessing>
