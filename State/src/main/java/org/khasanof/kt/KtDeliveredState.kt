@@ -1,7 +1,5 @@
 package org.khasanof.kt
 
-import org.khasanof.Package
-
 class KtDeliveredState : KtPackageState {
 
     override fun next(pkg: KtPackage) {
