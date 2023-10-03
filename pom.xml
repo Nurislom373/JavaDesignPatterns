@@ -22,6 +22,7 @@
         <module>Bridge</module>
         <module>Decorator</module>
         <module>State</module>
+        <module>StatelessObject</module>
     </modules>
 
     <properties>
