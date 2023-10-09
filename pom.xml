@@ -23,6 +23,7 @@
         <module>Decorator</module>
         <module>State</module>
         <module>StatelessObject</module>
+        <module>Facade</module>
     </modules>
 
     <properties>
