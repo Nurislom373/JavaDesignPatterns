@@ -16,6 +16,7 @@
         <module name="Decorator" />
         <module name="Repository" />
         <module name="Proxy" />
+        <module name="Flyweight" />
         <module name="Singleton" />
         <module name="State" />
         <module name="Strategy" />

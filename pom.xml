@@ -24,6 +24,7 @@
         <module>State</module>
         <module>StatelessObject</module>
         <module>Facade</module>
+        <module>Flyweight</module>
     </modules>
 
     <properties>
