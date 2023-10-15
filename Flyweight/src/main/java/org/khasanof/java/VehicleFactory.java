@@ -1,4 +1,4 @@
-package org.khasanof;
+package org.khasanof.java;
 
 import java.util.HashMap;
 import java.util.Map;

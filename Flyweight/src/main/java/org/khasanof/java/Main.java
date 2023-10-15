@@ -1,4 +1,4 @@
-package org.khasanof;
+package org.khasanof.java;
 
 import java.util.Random;
 
@@ -6,8 +6,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         System.out.println("***Flyweight Pattern Demo.***\n");
-        VehicleFactory vehicleFactory = new
-                VehicleFactory();
+        VehicleFactory vehicleFactory = new VehicleFactory();
         // Making 3 cars
         createVehicles("car", 3, vehicleFactory);
         // Making 5 Buses
