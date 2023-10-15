@@ -1,13 +1,20 @@
 # Flyweight
 
-Flyweight Design Pattern xotirani kamaytirish uchun ishlatiladi. U object yaratish qiyin bolgan ilovalarda ish
-faoliyatni yaxshilashi mumkin.
+Flyweight Design Pattern bir nechta objectlar o'rtasidagi umumiy ma'lumotlarni almashish orqali xotiradan foydalanishni
+minimallashtirishga qaratilgan. Bu ayniqsa unumdorlikni oshirish va xotira maydonini kamaytirish uchun ko'p sonli 
+o'xshash objectlar bilan ishlashda foydalidir. 
 
-Flyweight Design Pattern ko'p sonlin objectlarni samarali qo'llab quvvatlash uchun almashishdan foydalaning.
+Flyweight Structural Design Patternga toifasiga kiradi. U bir nechta objectlar o'rtasida umumiy holatni almashish orqali
+xotiradan foydalanishni optimallashtirishga qaratilgan. 
+
+![img](static/images/img.png)
 
 Flyweight Patterni asosiy tushunchasi intrinsic(ichki) va extrinsic(tashqi) holat o'rtasidagi farq. Ichki holat
 Flyweightda saqlanadi. Tashqi holat Flyweight contextga bog'liq va o'zgarib turadi, shuning uchun uni share(baham)
 ko'rish mumkin emas.
+
+Flyweight Design pattern bitta maqsadi bor: xotira miqdorini minimallashtirish. Flyweight turli xil objectlar tomonidan
+ishlatiladigan bir xil ma'lumotlarni cachelash orqali RAMni tejaydi.
 
 ## Example
 
