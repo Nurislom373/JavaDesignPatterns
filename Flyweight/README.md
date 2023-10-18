@@ -5,7 +5,8 @@ minimallashtirishga qaratilgan. Bu ayniqsa unumdorlikni oshirish va xotira maydo
 o'xshash objectlar bilan ishlashda foydalidir. 
 
 Flyweight Structural Design Patternga toifasiga kiradi. U bir nechta objectlar o'rtasida umumiy holatni almashish orqali
-xotiradan foydalanishni optimallashtirishga qaratilgan. 
+xotiradan foydalanishni optimallashtirishga qaratilgan. Ichki holat bir nechta objectlar orasida taqsimlanadi, tashqi
+holat esa har xil bo'lishi mumkin. 
 
 ![img](static/images/img.png)
 
@@ -22,4 +23,4 @@ ishlatiladigan bir xil ma'lumotlarni cachelash orqali RAMni tejaydi.
 object mavjudligini tekshiradi. Agar u cacheda topilsa, u qaytariladi.
 
 - JVM dagi String Pool - Flyweight patternga yana bir misoldir. intern() methodini chaqirganingizda, cachelangan 
-objectni ham qaytarishi mumkin. 
+objectni ham qaytarishi mumkin.
