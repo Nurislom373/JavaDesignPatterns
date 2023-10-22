@@ -5,8 +5,9 @@ import java.util.List;
 import java.util.Objects;
 
 public class ServerProxy implements Internet {
+
     private Server server;
-    private static List<String> blockedServers;
+    private static final List<String> blockedServers;
 
     static {
         blockedServers = new ArrayList<>();

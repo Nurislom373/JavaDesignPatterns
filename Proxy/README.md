@@ -27,3 +27,6 @@ ishlatishimiz mumkin.
 
 * (caching request results) So'rov natijalarni cachelash. Mijoz requestlarni cachelash va ushbu cachning hayot aylanishini
 boshqarish kerak bo'lganda, ayniqsa natijalar juda katta bo'lsa.
+
+## Example
+
