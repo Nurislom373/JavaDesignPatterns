@@ -12,6 +12,7 @@
         <module name="Builder" />
         <module name="ThreadPool" />
         <module name="Factory" />
+        <module name="Adapter" />
         <module name="AbstractFactory" />
         <module name="Decorator" />
         <module name="Repository" />
