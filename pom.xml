@@ -26,6 +26,7 @@
         <module>Facade</module>
         <module>Flyweight</module>
         <module>Adapter</module>
+        <module>Composite</module>
     </modules>
 
     <properties>

@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Facade" />
         <module name="Prototype" />
+        <module name="Composite" />
         <module name="Builder" />
         <module name="ThreadPool" />
         <module name="Factory" />
