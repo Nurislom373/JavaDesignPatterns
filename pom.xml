@@ -27,6 +27,7 @@
         <module>Flyweight</module>
         <module>Adapter</module>
         <module>Composite</module>
+        <module>Observer</module>
     </modules>
 
     <properties>
