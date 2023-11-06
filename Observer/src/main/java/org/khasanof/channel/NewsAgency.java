@@ -1,4 +1,4 @@
-package org.khasanof;
+package org.khasanof.channel;
 
 import java.util.ArrayList;
 import java.util.List;

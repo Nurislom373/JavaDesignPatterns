@@ -1,4 +1,4 @@
-package org.khasanof;
+package org.khasanof.channel;
 
 /**
  * @author Nurislom
