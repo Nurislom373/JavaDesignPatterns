@@ -28,6 +28,7 @@
         <module>Adapter</module>
         <module>Composite</module>
         <module>Observer</module>
+        <module>ChainOfResponsibility</module>
     </modules>
 
     <properties>

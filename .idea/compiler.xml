@@ -23,6 +23,7 @@
         <module name="State" />
         <module name="Observer" />
         <module name="Strategy" />
+        <module name="ChainOfResponsibility" />
         <module name="Bridge" />
         <module name="StatelessObject" />
       </profile>
