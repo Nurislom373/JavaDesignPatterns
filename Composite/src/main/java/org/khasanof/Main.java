@@ -1,6 +1,7 @@
 package org.khasanof;
 
 public class Main {
+
     public static void main(String[] args) {
         Department financialDepartment = new FinancialDepartment();
         Department salesDepartment = new SalesDepartment();
@@ -11,4 +12,5 @@ public class Main {
 
         headDepartment.printName();
     }
+
 }
