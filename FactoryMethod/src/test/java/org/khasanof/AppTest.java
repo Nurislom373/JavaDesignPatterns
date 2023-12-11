@@ -19,17 +19,20 @@
  * LIABILITY,WHETHER IN AN ACTION OF CONTRACT,TORT OR OTHERWISE,ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
-*/
+ */
+
 
 package org.khasanof;
 
-public class App {
-    public static void main(String[] args) {
+import static org.junit.jupiter.api.Assertions.*;
 
-        Coin coinSilver = CoinFactory.getCoin(CoinType.SILVER);
-        Coin coinGold = CoinFactory.getCoin(CoinType.GOLD);
-        System.out.println("coinGold = " + coinGold.getDescription());
-        System.out.println("coinSilver = " + coinSilver.getDescription());
+import org.junit.jupiter.api.Test;
+import org.khasanof.coin.App;
 
+public class AppTest {
+
+    @Test
+    void AppDoesNotThrow() {
+        assertDoesNotThrow(() -> App.main(new String[]{}));
     }
 }

@@ -25,6 +25,10 @@
 package org.khasanof;
 
 import org.junit.jupiter.api.Test;
+import org.khasanof.coin.CoinFactory;
+import org.khasanof.coin.CoinType;
+import org.khasanof.coin.GoldCoin;
+import org.khasanof.coin.SilverCoin;
 
 import static org.junit.jupiter.api.Assertions.*;
 

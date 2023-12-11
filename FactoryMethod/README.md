@@ -1,12 +1,11 @@
-# Factory Pattern
+# Factory Method
 
-The factory design pattern is used when we have a superclass with
-multiple sub-classes and based on input, we need to return one of the 
-sub-class. This pattern takes out the responsibility of the instantiation
-of a class from the client program to the factory class. We can apply a 
-Singleton pattern on the Factory class or make the factory method static. 
-Check out Factory Design Pattern for example program and factory pattern 
-benefits. This is one of the most widely used java design patterns.
+Factory Method - Creational Design Pattern bo'lib qisqacha qilib aytganda superclass objectlarni yaratish uchun interfaceni
+ta'minlovchi design pattern.
+
+## Pattern Diagram
+
+![img1](static/images/img.png)
 
 ### Class Diagram
 

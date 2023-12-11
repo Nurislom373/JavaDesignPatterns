@@ -22,19 +22,12 @@
  */
 
 
-package org.khasanof;
+package org.khasanof.coin;
 
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
+public abstract class CoinFactory {
 
-import java.util.function.Supplier;
+    public static Coin getCoin(CoinType type) {
+        return type.getConstructor().get();
+    }
 
-@RequiredArgsConstructor
-@Getter
-public enum CoinType {
-
-    SILVER(SilverCoin::new),
-    GOLD(GoldCoin::new);
-
-    private final Supplier<Coin> constructor;
 }

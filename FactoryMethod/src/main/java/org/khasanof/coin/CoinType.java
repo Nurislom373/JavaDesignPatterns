@@ -22,16 +22,19 @@
  */
 
 
-package org.khasanof;
+package org.khasanof.coin;
 
-import static org.junit.jupiter.api.Assertions.*;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
-import org.junit.jupiter.api.Test;
+import java.util.function.Supplier;
 
-public class AppTest {
+@RequiredArgsConstructor
+@Getter
+public enum CoinType {
 
-    @Test
-    void AppDoesNotThrow() {
-        assertDoesNotThrow(() -> App.main(new String[]{}));
-    }
+    SILVER(SilverCoin::new),
+    GOLD(GoldCoin::new);
+
+    private final Supplier<Coin> constructor;
 }

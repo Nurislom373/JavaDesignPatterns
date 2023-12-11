@@ -22,10 +22,14 @@
  */
 
 
-package org.khasanof;
+package org.khasanof.coin;
 
-public interface Coin {
+public class SilverCoin implements Coin {
 
-    String getDescription();
+    static final String description = "This is Silver coin.";
 
+    @Override
+    public String getDescription() {
+        return description;
+    }
 }

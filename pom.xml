@@ -16,7 +16,7 @@
         <module>Prototype</module>
         <module>Proxy</module>
         <module>Strategy</module>
-        <module>Factory</module>
+        <module>FactoryMethod</module>
         <module>Singleton</module>
         <module>ThreadPool</module>
         <module>Bridge</module>

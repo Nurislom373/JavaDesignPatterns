@@ -22,11 +22,11 @@
  */
 
 
-package org.khasanof;
+package org.khasanof.coin;
 
-public class SilverCoin implements Coin {
+public class GoldCoin implements Coin {
 
-    static final String description = "This is Silver coin.";
+    static final String description = "This is Gold coin.";
 
     @Override
     public String getDescription() {

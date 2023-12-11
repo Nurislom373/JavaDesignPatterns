@@ -19,15 +19,17 @@
  * LIABILITY,WHETHER IN AN ACTION OF CONTRACT,TORT OR OTHERWISE,ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- */
+*/
 
+package org.khasanof.coin;
 
-package org.khasanof;
+public class App {
+    public static void main(String[] args) {
 
-public abstract class CoinFactory {
+        Coin coinSilver = CoinFactory.getCoin(CoinType.SILVER);
+        Coin coinGold = CoinFactory.getCoin(CoinType.GOLD);
+        System.out.println("coinGold = " + coinGold.getDescription());
+        System.out.println("coinSilver = " + coinSilver.getDescription());
 
-    public static Coin getCoin(CoinType type) {
-        return type.getConstructor().get();
     }
-
 }
