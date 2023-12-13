@@ -1,7 +1,11 @@
 # Abstract Factory Pattern
 
-Aloqador yoki bog'liq objectlar oilalarini ularning aniq sinflarini ko'rsatmasdan
-yaratish uchun interfeysni taqdim etadigan pattern.
+Bir biriga aloqador yoki bog'liq objectlarni aniq classlarini ko'rsatmasdan yaratish uchun interface yoki abstract classni
+taqdim etadigan pattern. Abstract Factoryni Factorylarni Factorisi deb ham atashadi.
+
+## Example
+
+
 
 ### Class Diagram
 

@@ -1,7 +1,12 @@
 # Factory Method
 
-Factory Method - Creational Design Pattern bo'lib qisqacha qilib aytganda superclass objectlarni yaratish uchun interfaceni
-ta'minlovchi design pattern.
+Factory Method - Creational Design Pattern bo'lib qisqacha qilib aytganda objectlarni yaratish uchun interface yoki
+abstract classni ta'minlaydigan design pattern va uning subclassi qaysi classni yaratishni tanlash imkonini beradi.
+
+## Example
+
+Tushinish oson bo'lishi uchun uchun, faraz qilaylik mashina ishlab chiqaruvchi zavod bor biz unga mashina nomini beramiz
+va u biz bergan mashina nomiga qarab bizga kerakli mashinani yetkazib beradi. 
 
 ## Pattern Diagram
 
