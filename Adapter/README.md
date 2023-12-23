@@ -21,10 +21,7 @@ public class ReactiveJwtAuthenticationConverterAdapter implements Converter<Jwt,
     }
 
     public final Mono<AbstractAuthenticationToken> convert(Jwt jwt) {
-        Mono var10000 = Mono.just(jwt);
-        Converter var10001 = this.delegate;
-        Objects.requireNonNull(var10001);
-        return var10000.map(var10001::convert);
+        return Mono.just(jwt).map(this.delegate::convert);
     }
 }
 

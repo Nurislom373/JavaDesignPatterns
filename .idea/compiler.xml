@@ -19,6 +19,7 @@
         <module name="Repository" />
         <module name="Proxy" />
         <module name="Flyweight" />
+        <module name="Command" />
         <module name="Singleton" />
         <module name="State" />
         <module name="Observer" />
