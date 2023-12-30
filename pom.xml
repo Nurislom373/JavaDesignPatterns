@@ -31,6 +31,7 @@
         <module>ChainOfResponsibility</module>
         <module>Iterator</module>
         <module>Command</module>
+        <module>Mediator</module>
     </modules>
 
     <properties>
