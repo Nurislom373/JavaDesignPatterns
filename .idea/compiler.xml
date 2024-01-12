@@ -16,6 +16,7 @@
         <module name="Adapter" />
         <module name="AbstractFactory" />
         <module name="Decorator" />
+        <module name="Memento" />
         <module name="Repository" />
         <module name="Proxy" />
         <module name="Flyweight" />

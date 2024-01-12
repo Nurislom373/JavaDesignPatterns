@@ -32,6 +32,7 @@
         <module>Iterator</module>
         <module>Command</module>
         <module>Mediator</module>
+        <module>Memento</module>
     </modules>
 
     <properties>
