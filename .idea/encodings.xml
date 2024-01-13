@@ -30,6 +30,8 @@
     <file url="file://$PROJECT_DIR$/State/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/StatelessObject/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/StatelessObject/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TemplateMethod/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TemplateMethod/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ThreadPool/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ThreadPool/src/main/resources" charset="UTF-8" />
   </component>

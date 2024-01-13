@@ -33,6 +33,7 @@
         <module>Command</module>
         <module>Mediator</module>
         <module>Memento</module>
+        <module>TemplateMethod</module>
     </modules>
 
     <properties>
