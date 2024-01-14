@@ -41,7 +41,9 @@ public abstract class Network {
     }
 
     public abstract boolean login(String username, String password);
+
     public abstract boolean sendData(byte[] data);
+
     public abstract void logout();
 
 }

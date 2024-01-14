@@ -8,29 +8,30 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TemplateMethod" />
-        <module name="FactoryMethod" />
         <module name="Facade" />
         <module name="Prototype" />
-        <module name="Composite" />
+        <module name="Visitor" />
         <module name="Builder" />
         <module name="ThreadPool" />
         <module name="Adapter" />
-        <module name="AbstractFactory" />
-        <module name="Decorator" />
         <module name="Memento" />
-        <module name="Repository" />
         <module name="Proxy" />
         <module name="Flyweight" />
+        <module name="Observer" />
+        <module name="Iterator" />
+        <module name="StatelessObject" />
+        <module name="FactoryMethod" />
+        <module name="Composite" />
+        <module name="AbstractFactory" />
+        <module name="Decorator" />
+        <module name="Repository" />
         <module name="Command" />
         <module name="Singleton" />
         <module name="State" />
-        <module name="Observer" />
-        <module name="Iterator" />
         <module name="Strategy" />
         <module name="Mediator" />
         <module name="ChainOfResponsibility" />
         <module name="Bridge" />
-        <module name="StatelessObject" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
