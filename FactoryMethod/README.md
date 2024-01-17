@@ -1,12 +1,25 @@
 # Factory Method
 
+## Overview
+
 Factory Method - Creational Design Pattern bo'lib qisqacha qilib aytganda objectlarni yaratish uchun interface yoki
-abstract classni ta'minlaydigan design pattern va uning subclassi qaysi classni yaratishni tanlash imkonini beradi.
+abstract classni ta'minlaydigan design pattern va uning subclassi qaysi classni yaratishni hal qiladi.
+Bu Pattern objectlarni aniq classlarini ko'rsatmasdan yaratish muammosini hal qiladigan factory design pattern.
+
+## Applicability
+
+* Kodingiz ishlashi kerak bo'lgan ob'ektlarning aniq turlari va bog'liqliklarini oldindan bilmaganingizda Factory Method-dan foydalaning.
+
+Factory Method Product yaratish kodini Productdan foydalanadigan koddan ajratib turadi. Shuning uchun Product qurilish kodini
+kodning qolgan qismidan mustaqil rabishda kengaytirish osonroq.
+
+Misol uchun, ilovaga yangi Product turini qo'shish uchun siz faqat yangi factory methodning pastki classini yaratishingiz
+va undagi factory methodni bekor qilishingiz kerak bo'ladi.
 
 ## Example
 
 Tushinish oson bo'lishi uchun uchun, faraz qilaylik mashina ishlab chiqaruvchi zavod bor biz unga mashina nomini beramiz
-va u biz bergan mashina nomiga qarab bizga kerakli mashinani yetkazib beradi. 
+va u biz bergan mashina nomiga qarab bizga kerakli mashinani yetkazib beradi.
 
 ## Pattern Diagram
 
@@ -14,7 +27,7 @@ va u biz bergan mashina nomiga qarab bizga kerakli mashinani yetkazib beradi.
 
 ### Class Diagram
 
-![img](src/main/resources/etc/img.png)
+![img](etc/images/img.png)
 
 ## Step 1
 
@@ -87,14 +100,3 @@ public class App {
     }
 }
 ```
-
-# Translate
-
-Zavod dizayni namunasi bizda bir nechta kichik sinflarga ega bo'lgan
-va kiritilgan ma'lumotlarga asoslanib, biz quyi sinflardan birini 
-qaytarishimiz kerak bo'lgan superklassga ega bo'lganimizda ishlatiladi.
-Ushbu naqsh mijoz dasturidan zavod sinfiga sinfni yaratish mas'uliyatini
-o'z zimmasiga oladi. Biz zavod sinfida Singleton naqshini qo'llashimiz
-yoki zavod usulini statik qilishimiz mumkin. Masalan, dastur va zavod
-naqshining afzalliklari uchun Zavod dizayni namunasini tekshiring. 
-Bu eng ko'p ishlatiladigan java dizayn naqshlaridan biridir.
