@@ -1,15 +1,17 @@
 # Abstract Factory Pattern
 
 Bir biriga aloqador yoki bog'liq objectlarni aniq classlarini ko'rsatmasdan yaratish uchun interface yoki abstract classni
-taqdim etadigan pattern. Abstract Factoryni Factorylarni Factorisi deb ham atashadi.
+taqdim etadigan pattern. Abstract Factoryni Factorylarni Factorisi deb ham atashadi. Abstract Factory patternni taklif
+qiladigan birinchi narsa product oilasining har bir alohida product (masalan, stul, divan va kofe stoli) uchun
+interfacelarni aniq e'lon qilishdir.
 
-## Example
+## Structure
 
+![structure](etc/images/structure.png)
 
+## Class Diagram
 
-### Class Diagram
-
-![windows](src/main/resources/img/img.png)
+![windows](etc/images/img.png)
 
 ## Explanation
 
@@ -22,7 +24,7 @@ ork armiyasi kerak. Shohlikdagi objectlar o'rtasida bog'liqlik mavjud.
 Mavhum zavod namunasi umumiy mavzuga ega bo'lgan alohida zavodlar
 guruhini ularning aniq sinflarini ko'rsatmasdan qamrab olish usulini taqdim etadi.
 
-## Example
+## Java Example
 
 ```java
 public interface Castle {
