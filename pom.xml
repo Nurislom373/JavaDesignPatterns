@@ -35,6 +35,7 @@
         <module>Memento</module>
         <module>TemplateMethod</module>
         <module>Visitor</module>
+        <module>ExplicitConditionQueues</module>
     </modules>
 
     <properties>

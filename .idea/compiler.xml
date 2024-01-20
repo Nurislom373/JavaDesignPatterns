@@ -21,6 +21,7 @@
         <module name="Iterator" />
         <module name="StatelessObject" />
         <module name="FactoryMethod" />
+        <module name="ExplicitConditionQueues" />
         <module name="Composite" />
         <module name="AbstractFactory" />
         <module name="Decorator" />
